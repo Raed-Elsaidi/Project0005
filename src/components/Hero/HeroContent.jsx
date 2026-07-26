@@ -74,16 +74,16 @@ const HeroContent = () => {
           View Projects
         </motion.a>
 
-        <motion.a
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-          href="/CV/Raed-Elsaidi-CV.pdf"
-          download
-          className="flex items-center gap-2 rounded-xl border border-slate-300 px-8 py-4 font-semibold text-slate-800 transition hover:border-cyan-500 hover:text-cyan-500 dark:border-slate-700 dark:text-white"
-        >
-          <FaDownload />
-          Download CV
-        </motion.a>
+      <motion.a
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.95 }}
+  href={'${import.meta.env.BASE_URL}cv/Raed-Elsaidi-CV.pdf'}
+  download="Raed-Elsaidi-CV.pdf"
+  className="flex items-center gap-2 rounded-xl border border-slate-300 px-8 py-4 font-semibold text-slate-800 transition hover:border-cyan-500 hover:text-cyan-500 dark:border-slate-700 dark:text-white"
+>
+  <FaDownload />
+  Download CV
+</motion.a>
       </div>
       {/* Social */}
       <div className="flex items-center gap-5">
