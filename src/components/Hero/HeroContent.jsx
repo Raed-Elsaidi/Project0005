@@ -77,9 +77,10 @@ const HeroContent = () => {
       <motion.a
   whileHover={{ scale: 1.05 }}
   whileTap={{ scale: 0.95 }}
-  href={'${import.meta.env.BASE_URL}cv/Raed-Elsaidi-CV.pdf'}
-  download="Raed-Elsaidi-CV.pdf"
-  className="flex items-center gap-2 rounded-xl border border-slate-300 px-8 py-4 font-semibold text-slate-800 transition hover:border-cyan-500 hover:text-cyan-500 dark:border-slate-700 dark:text-white"
+  href="https://raed-elsaidi.github.io/Project0005/cv/Raed-Elsaidi-CV.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-2 rounded-xl border border-slate-300"
 >
   <FaDownload />
   Download CV
