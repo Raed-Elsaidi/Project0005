@@ -64,33 +64,35 @@ const HeroContent = () => {
       </p>
 
       {/* Buttons */}
-      <div className="flex flex-wrap gap-4">
-        <motion.a
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-          href="#projects"
-          className="rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 px-8 py-4 font-semibold text-white shadow-lg transition"
-        >
-          View Projects
-        </motion.a>
+     <div className="flex flex-wrap gap-4">
+  <motion.a
+    whileHover={{ scale: 1.05 }}
+    whileTap={{ scale: 0.95 }}
+    href="#projects"
+    style={{ width: "200px", height: "58px" }}
+    className="flex items-center justify-center rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 font-semibold text-white shadow-lg transition"
+  >
+    View Projects
+  </motion.a>
 
-      <motion.a
-  whileHover={{ scale: 1.05 }}
-  whileTap={{ scale: 0.95 }}
-  href="https://raed-elsaidi.github.io/Project0005/cv/Raed-Elsaidi-CV.pdf"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="flex items-center gap-2 rounded-xl border border-slate-300"
->
-  <FaDownload />
-  Download CV
-</motion.a>
-      </div>
+  <motion.a
+    whileHover={{ scale: 1.05 }}
+    whileTap={{ scale: 0.95 }}
+    href="https://raed-elsaidi.github.io/Project0005/cv/Raed-Elsaidi-CV.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{ width: "200px", height: "58px" }}
+    className="flex items-center justify-center gap-2 rounded-xl border border-slate-300 font-semibold"
+  >
+    <FaDownload />
+    Download CV
+  </motion.a>
+</div>
       {/* Social */}
       <div className="flex items-center gap-5">
         <motion.a
           whileHover={{ y: -6, scale: 1.12 }}
-          href="https://www.facebook.com/raed.elsaidi"
+          href="https://raed-elsaidi.github.io/Project0005/cv/Raed-Elsaidi-CV.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="rounded-full bg-slate-100 p-4 text-xl text-slate-700 shadow-lg transition-all duration-300 hover:bg-cyan-500 hover:text-white hover:shadow-[0_0_25px_rgba(34,211,238,0.6)] dark:bg-slate-800 dark:text-white"
