@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FaMoon, FaSun, FaBars, FaTimes } from "react-icons/fa";
-import logo from "../assets/logo.jpg";
+import logo from "../assets/logo.png";
 
 function Navbar({ darkMode, setDarkMode, active, setActive }) {
   const [menuOpen, setMenuOpen] = useState(false);
