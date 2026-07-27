@@ -64,13 +64,13 @@ const HeroContent = () => {
       </p>
 
       {/* Buttons */}
-     <div className="flex flex-wrap gap-4">
+    <div className="flex flex-wrap gap-3 sm:gap-4">
+
   <motion.a
     whileHover={{ scale: 1.05 }}
     whileTap={{ scale: 0.95 }}
     href="#projects"
-    style={{ width: "200px", height: "58px" }}
-    className="flex items-center justify-center rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 font-semibold text-white shadow-lg transition"
+    className="flex w-[150px] sm:w-[200px] items-center justify-center rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 px-4 py-3 sm:px-8 sm:py-4 text-sm sm:text-base font-semibold text-white shadow-lg transition"
   >
     View Projects
   </motion.a>
@@ -81,12 +81,12 @@ const HeroContent = () => {
     href="https://raed-elsaidi.github.io/Project0005/cv/Raed-Elsaidi-CV.pdf"
     target="_blank"
     rel="noopener noreferrer"
-    style={{ width: "200px", height: "58px" }}
-    className="flex items-center justify-center gap-2 rounded-xl border border-slate-300 font-semibold"
+    className="flex w-[150px] sm:w-[200px] items-center justify-center gap-2 rounded-xl border border-slate-300 px-4 py-3 sm:px-8 sm:py-4 text-sm sm:text-base font-semibold"
   >
     <FaDownload />
     Download CV
   </motion.a>
+
 </div>
       {/* Social */}
       <div className="flex items-center gap-5">
