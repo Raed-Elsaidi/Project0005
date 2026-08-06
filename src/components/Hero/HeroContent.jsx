@@ -78,7 +78,7 @@ const HeroContent = () => {
   <motion.a
     whileHover={{ scale: 1.05 }}
     whileTap={{ scale: 0.95 }}
-    href="https://raed-elsaidi.github.io/Project0005/assets/cv/Raed-Elsaidi-CV.pdf"
+    href="https://raed-elsaidi.github.io/Project0005/cv/Raed-Elsaidi-CV.pdf"
     target="_blank"
     rel="noopener noreferrer"
     className="flex w-[150px] sm:w-[200px] items-center justify-center gap-2 rounded-xl border border-slate-300 px-4 py-3 sm:px-8 sm:py-4 text-sm sm:text-base font-semibold"
@@ -92,7 +92,7 @@ const HeroContent = () => {
       <div className="flex items-center gap-5">
         <motion.a
           whileHover={{ y: -6, scale: 1.12 }}
-          href="https://raed-elsaidi.github.io/Project0005/assets/cv/Raed-Elsaidi-CV.pdf"
+          href="https://raed-elsaidi.github.io/Project0005/cv/Raed-Elsaidi-CV.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="rounded-full bg-slate-100 p-4 text-xl text-slate-700 shadow-lg transition-all duration-300 hover:bg-cyan-500 hover:text-white hover:shadow-[0_0_25px_rgba(34,211,238,0.6)] dark:bg-slate-800 dark:text-white"
