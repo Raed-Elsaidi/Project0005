@@ -78,7 +78,7 @@ const HeroContent = () => {
   <motion.a
     whileHover={{ scale: 1.05 }}
     whileTap={{ scale: 0.95 }}
-    href="https://raed-elsaidi.github.io/Project0005/cv/Raed-Elsaidi-CV.pdf"
+    href="https://raed-elsaidi.github.io/Project0005/public/cv/Raed-Elsaidi-CV.pdf"
     target="_blank"
     rel="noopener noreferrer"
     className="flex w-[150px] sm:w-[200px] items-center justify-center gap-2 rounded-xl border border-slate-300 px-4 py-3 sm:px-8 sm:py-4 text-sm sm:text-base font-semibold"
